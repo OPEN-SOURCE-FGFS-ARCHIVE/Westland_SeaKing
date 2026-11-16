@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+  <sim>
+    <model>
+      <livery>
+        <name type="string">Pakistan Navy 111 Sqn</name>
+        <texture>har3Liveries/PakN111S.png</texture>
+
+      </livery>
+	    <bk117>
+	   <hdr>false</hdr>
+		<als>true</als>
+		</bk117>
+    </model>
+	<rendering>
+    <refl_correction type="string">-0.45</refl_correction>
+    </rendering>
+  </sim>
+</PropertyList>

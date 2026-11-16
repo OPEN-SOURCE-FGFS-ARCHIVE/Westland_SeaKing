@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+<path>har3.ac</path>
+
+	
+	<animation>
+		<!-- Objets solid -->
+		<object-name>fuse_01</object-name>
+		<object-name>fuse_02</object-name>
+		<object-name>fuse_03</object-name>
+		<object-name>fuse_04</object-name>
+		<object-name>rdoor</object-name>
+		<object-name>ldoor</object-name>
+		<object-name>ldoortop</object-name>
+		<object-name>ldoorbottom</object-name>
+		<object-name>slidedoor</object-name>
+		<object-name>tailfold</object-name>
+		<object-name>hstab</object-name>
+		<!-- Objets transparent -->
+		<object-name>front-glass</object-name>
+		<object-name>left-glass</object-name>
+		<object-name>right-glass</object-name>
+		<object-name>left-door-glass</object-name>
+		<object-name>front-glass-upper</object-name>
+		<object-name>glass</object-name>
+		<object-name>cargoglass</object-name>
+		<object-name>object.001</object-name>
+		<object-name>object.002</object-name>
+		<object-name>rdoor.003</object-name>
+		<object-name>rdoor.004</object-name>
+	</animation>
+
+
+	<effect>
+		<inherits-from>Aircraft/Westland_SeaKing/Models/Effects/bumps</inherits-from>
+		<object-name>fuse_01</object-name>
+		<object-name>fuse_02</object-name>
+		<object-name>fuse_03</object-name>
+		<object-name>fuse_04</object-name>
+		<object-name>rdoor</object-name>
+		<object-name>ldoor</object-name>
+		<object-name>ldoortop</object-name>
+		<object-name>ldoorbottom</object-name>
+		<object-name>slidedoor</object-name>
+		<object-name>tailfold</object-name>
+		<object-name>hstab</object-name>
+		<object-name>wavefront.007</object-name>
+		<object-name>wavefront.004</object-name>
+		<object-name>wavefront.012</object-name>
+		<object-name>wavefront.014</object-name>
+		<object-name>wavefront.011</object-name>
+	</effect>
+
+
+
+<effect>
+		<inherits-from>Aircraft/Westland_SeaKing/Models/Effects/glassout</inherits-from>
+		<object-name>front-glass-upper</object-name>
+<object-name>front-glass</object-name>
+		<object-name>left-glass</object-name>
+		<object-name>right-glass</object-name>
+		<object-name>left-door-glass</object-name>
+		<object-name>front-glass-upper</object-name>
+		<object-name>glass</object-name>
+		<object-name>cargoglass</object-name>
+		<object-name>object.001</object-name>
+		<object-name>object.002</object-name>
+		<object-name>rdoor.003</object-name>
+		<object-name>rdoor.004</object-name>
+</effect>
+
+
+<effect>
+        <inherits-from>Effects/glass</inherits-from>
+     <object-name>front-glass-upperin</object-name>
+<object-name>front-glassin</object-name>
+		<object-name>left-glassin</object-name>
+		<object-name>right-glassin</object-name>
+		<object-name>left-door-glassin</object-name>
+		<object-name>front-glass-upperin</object-name>
+		<object-name>glassin</object-name>
+		<object-name>cargoglassin</object-name>
+		<object-name>object.001in</object-name>
+		<object-name>object.002in</object-name>
+		<object-name>rdoor.003in</object-name>
+		<object-name>rdoor.004in</object-name>
+    </effect>
+
+
+
+	<animation>
+		<type>noshadow</type>
+		<object-name>front-glass</object-name>
+		<object-name>left-glass</object-name>
+		<object-name>right-glass</object-name>
+		<object-name>left-door-glass</object-name>
+		<object-name>front-glass-upper</object-name>
+		<object-name>glass</object-name>
+		<object-name>cargoglass</object-name>
+		<object-name>object.001</object-name>
+		<object-name>object.002</object-name>
+		<object-name>rdoor.003</object-name>
+		<object-name>rdoor.004</object-name>
+	</animation>
+	
+
+<!-- HC4 sponsons and  kit -->
+<model>
+    
+    <path>Aircraft/Westland_SeaKing/Models/hcbitsALS.xml</path>
+    <offsets>
+      <x-m>0 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m>  0.000 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    
+    <path>Aircraft/Westland_SeaKing/Models/commandokit.xml</path>
+    <offsets>
+      <x-m>0 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m>  0.000 </z-m>
+    </offsets>
+  </model>
+
+<!--== particles ==-->
+
+ <model>
+    <name>mainrotors_dirt</name>
+    <path>Aircraft/Westland_SeaKing/Models/Effects/particle/rotor_particle.xml</path>
+    <offsets>
+      <x-m>  -3.000 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m>  0.000 </z-m>
+    </offsets>
+  </model>
+	
+<!-- Intérieur 	-->
+	<model>
+		<path>Aircraft/Westland_SeaKing/Models/Interior/panel.xml</path>
+		<offsets>
+			<x-m> 0.10 </x-m>
+			<y-m> 0.000 </y-m>
+			<z-m> 0.000 </z-m>
+		</offsets>
+	</model>
+	
+	<model>
+		<path>Aircraft/Westland_SeaKing/Models/Interior/Overheadpanel.xml</path>
+		<offsets>
+			<x-m> 0.0 </x-m>
+			<y-m> 0.000 </y-m>
+			<z-m> 0.000 </z-m>
+		</offsets>
+	</model>
+	
+	<model>
+		<path>Aircraft/Westland_SeaKing/Models/Interior/sticks/collective.xml</path>
+		<offsets>
+			<x-m>-7.1</x-m>
+			<y-m> 0.300 </y-m>
+			<z-m> -0.45 </z-m>
+		</offsets>
+	</model>
+	
+	<model>
+		<path>Aircraft/Westland_SeaKing/Models/Interior/sticks/collective.xml</path>
+		<offsets>
+			<x-m>-7.1</x-m>
+			<y-m> -0.900 </y-m>
+			<z-m> -0.45 </z-m>
+		</offsets>
+	</model>
+	
+	<model>
+		<path>Aircraft/Westland_SeaKing/Models/Interior/sticks/cyclic.xml</path>
+		<offsets>
+			<x-m>-7.75</x-m>
+			<y-m> 0.60 </y-m>
+			<z-m> -0.700 </z-m>
+		</offsets>
+	</model>
+	
+	<model>
+		<path>Aircraft/Westland_SeaKing/Models/Interior/sticks/cyclic.xml</path>
+		<offsets>
+			<x-m>-7.75</x-m>
+			<y-m> -0.60 </y-m>
+			<z-m> -0.700 </z-m>
+		</offsets>
+	</model>
+	
+	
+	<model>
+		<path>Aircraft/Westland_SeaKing/Models/Interior/sticks/pedals.xml</path>
+		<offsets>
+			<x-m>-8</x-m>
+			<y-m> 0.65 </y-m>
+			<z-m> -0.600 </z-m>
+		</offsets>
+	</model>
+	
+	<model>
+		<path>Aircraft/Westland_SeaKing/Models/Interior/sticks/pedals.xml</path>
+		<offsets>
+			<x-m>-8</x-m>
+			<y-m> -0.65 </y-m>
+			<z-m> -0.600 </z-m>
+		</offsets>
+	</model>
+	
+	<!-- pilots -->
+	
+	  <model>
+   <name>pilot1</name>
+    <path>Aircraft/Westland_SeaKing/Models/MrBoomMike/MrBoomMike.xml</path>
+	<offsets>
+      <x-m> -7.55</x-m>
+      <y-m> 0.55 </y-m>
+      <z-m> 0.07 </z-m>
+      <pitch-deg>-2</pitch-deg>
+    </offsets>
+  </model>
+  
+  <animation>
+        <type>select</type>
+        <object-name>pilot1</object-name>
+		
+		<condition>
+<not>
+<equals>
+            <property>sim/current-view/view-number</property>
+			<value>0</value>
+			</equals>
+</not>
+        </condition>
+    </animation>	
+  
+  
+   <model>
+   <name>pilot2</name>
+    <path>Aircraft/Westland_SeaKing/Models/MrBoomMike/MrBoomMike.xml</path>
+	<offsets>
+       <x-m> -7.55</x-m>
+      <y-m> -0.6 </y-m>
+      <z-m> 0.07 </z-m>
+      <pitch-deg>-2</pitch-deg>
+    </offsets>
+  </model>
+
+
+<!-- Immatriculation 
+	<model>
+		<path>Aircraft/Westland_SeaKing/Models/Immat/immat.xml</path>
+		<offsets>
+			<x-m> 0 </x-m>
+			<y-m> 0 </y-m>
+			<z-m> 0 </z-m>
+		</offsets>
+	</model>
+	-->
+
+<!-- Main Rotor -->
+	<model>
+		<path>Aircraft/Westland_SeaKing/Models/MainRotor/mainrotor.xml</path>
+		<offsets>
+			<x-m> -3.930 </x-m>
+			<y-m>  0.000 </y-m>
+			<z-m>  2.560 </z-m>
+			<pitch-deg> -3 </pitch-deg>
+		</offsets>
+	</model>
+
+<!-- Tail Rotor -->
+	<model>
+	<name>tailrotor_assy</name>
+		<path>Aircraft/Westland_SeaKing/Models/TailRotor/tailrotor_head.xml</path>
+		<offsets>
+			<x-m>  8.209 </x-m>
+			<y-m> -0.731 </y-m>
+			<z-m>  1.610 </z-m>
+			<roll-deg> 90 </roll-deg>
+		</offsets>
+	</model>
+	
+<!-- Stow blades and tail assy fold animations -->
+	
+	<!-- Tail fold complete -->
+	<animation>
+		<name>tfold_assy</name>
+			<object-name>tailfold</object-name>
+			<object-name>hstab</object-name>
+			<object-name>tailrotor_assy</object-name>
+	</animation>
+
+	<!-- Tail fold -->
+	<animation> 
+		<type>rotate</type>
+		<object-name>tfold_assy</object-name>
+		<property>sim/multiplay/generic/float[3]</property>
+		<interpolation>
+			<entry><ind> 0.0 </ind><dep>    0 </dep></entry>
+			<entry><ind> 1.0 </ind><dep> -175 </dep></entry>
+		</interpolation>
+		<axis>
+			<x1-m>  6.264 </x1-m>
+			<y1-m>  0.184 </y1-m>
+			<z1-m>  0.580 </z1-m>
+			<x2-m>  6.264 </x2-m>
+			<y2-m>  0.208 </y2-m>
+			<z2-m>  0.229 </z2-m>
+		</axis>
+	</animation>
+	
+<!-- Door animations -->
+
+	<!-- Front Door upper complete -->
+	<animation>
+		<name>leftFrontDoor</name>
+			<object-name>ldoortop</object-name>
+			<object-name>left-door-glass</object-name>
+			<object-name>left-door-glassin</object-name>
+	</animation>
+	
+	<animation>
+  <type>pick</type>
+  <object-name>leftFrontDoor</object-name>
+ 
+  <visible>true</visible>
+  <action>
+   <button>0</button>
+   <repeatable>false</repeatable>
+   <binding>
+    <command>nasal</command>
+    <script>bk117.leftFrontDoor.toggle();</script>
+   </binding>
+  </action>
+ </animation>
+
+
+	<!-- Front Door upper part -->
+	<animation> 
+		<type>rotate</type>
+		<object-name>leftFrontDoor</object-name>
+		 <property>sim/multiplay/generic/float[1]</property>
+		<interpolation>
+			<entry><ind> 0.0 </ind><dep>   0 </dep></entry>
+			<entry><ind> 1.0 </ind><dep> -80 </dep></entry>
+		</interpolation>
+		<axis>
+			<x1-m> -6.567 </x1-m>
+			<y1-m> -0.993 </y1-m>
+			<z1-m>  0.909 </z1-m>
+			<x2-m> -6.151 </x2-m>
+			<y2-m> -0.998 </y2-m>
+			<z2-m>  0.909 </z2-m>
+		</axis>
+	</animation>
+	
+	<!-- Front Door lower part -->
+	<animation> 
+		<type>rotate</type>
+		<object-name>ldoorbottom</object-name>
+		 <property>sim/multiplay/generic/float[1]</property>
+		<interpolation>
+			<entry><ind> 0.0 </ind><dep>   0 </dep></entry>
+			<entry><ind> 1.0 </ind><dep> 150 </dep></entry>
+		</interpolation>
+		<axis>
+			<x1-m> -6.644 </x1-m>
+			<y1-m> -1.120 </y1-m>
+			<z1-m> -0.945 </z1-m>
+			<x2-m> -5.984 </x2-m>
+			<y2-m> -1.126 </y2-m>
+			<z2-m> -0.945 </z2-m>
+		</axis>
+	</animation>
+	
+	<!-- Cargo Door -->
+	
+	<animation>
+		<name>rightBackDoor</name>
+			<object-name>slidedoor</object-name>
+		<object-name>cargoglass</object-name>
+			<object-name>cargoglass.001</object-name>
+	</animation>
+	
+	<animation>
+  <type>pick</type>
+ <object-name>rightBackDoor</object-name>
+  <visible>true</visible>
+  <action>
+   <button>0</button>
+   <repeatable>false</repeatable>
+   <binding>
+    <command>nasal</command>
+    <script>bk117.rightBackDoor.toggle();</script>
+   </binding>
+  </action>
+ </animation>
+	
+	<animation> 
+		<type>translate</type>
+		<object-name>rightBackDoor</object-name>
+		
+		<property>sim/multiplay/generic/float[2]</property>
+		<interpolation>
+			<entry><ind> 0.00 </ind><dep> 0.00 </dep></entry>
+			<entry><ind> 0.05 </ind><dep> 0.00 </dep></entry>
+			<entry><ind> 1.00 </ind><dep> 1.70 </dep></entry>
+		</interpolation>
+		<axis>
+			<x1-m> -0.971 </x1-m>
+			<y1-m>  1.135 </y1-m>
+			<z1-m>  0.630 </z1-m>
+			<x2-m> -3.687 </x2-m>
+			<y2-m>  1.145 </y2-m>
+			<z2-m>  0.630 </z2-m>
+		</axis>
+	</animation>
+	
+	<animation> 
+		<type>translate</type>
+		<object-name>rightBackDoor</object-name>
+		 <property>sim/multiplay/generic/float[2]</property>
+		<interpolation>
+			<entry><ind> 0.00 </ind><dep> 0.00 </dep></entry>
+			<entry><ind> 0.15 </ind><dep> 0.03 </dep></entry>
+			<entry><ind> 1.00 </ind><dep> 0.03 </dep></entry>
+		</interpolation>
+		<axis>
+			<x>  0 </x>
+			<y>  1 </y>
+			<z>  0 </z>
+		</axis>
+	</animation>
+<!-- Gear animations -->
+
+	<!-- Tail Gear complete -->
+	<animation>
+		<name>tgear_assy</name>
+			<object-name>tstrut</object-name>
+			<object-name>tcompress</object-name>
+			<object-name>topscissor</object-name>
+			<object-name>lowerscissor</object-name>
+			<object-name>twheel</object-name>
+	</animation>
+	
+	<animation>
+		<name>tgear_damp</name>
+			<object-name>tcompress</object-name>
+			<object-name>topscissor</object-name>
+			<object-name>lowerscissor</object-name>
+			<object-name>twheel</object-name>
+	</animation>
+	
+	<animation>
+		<name>tgear_swing</name>
+			<object-name>topscissor</object-name>
+			<object-name>lowerscissor</object-name>
+			<object-name>twheel</object-name>
+	</animation>
+	
+	<!-- Tail Gear stearing -->
+	<animation>
+		<type>rotate</type>
+		<object-name>tgear_assy</object-name>
+		<property>gear/gear[2]/caster-angle-deg</property>
+		<factor> 1 </factor>
+		<center>
+			<x-m>  2.391 </x-m>
+			<y-m>  0.000 </y-m>
+			<z-m> -1.434 </z-m>
+		</center>
+		<axis>
+			<x>  0 </x>
+			<y>  0 </y>
+			<z> -1 </z>
+		</axis>
+	</animation>
+	
+	<!-- Tail Landing Gear - compression -->
+	<animation>
+		<type>translate</type>
+		<object-name>tgear_damp</object-name>
+		<property>gear/gear[2]/compression-norm</property>
+		<interpolation>
+			<entry><ind> 0.0 </ind><dep> 0.00 </dep></entry>
+			<entry><ind> 1.0 </ind><dep> 0.25 </dep></entry>
+		</interpolation>
+		<axis>
+			<x>0.0</x>
+			<y>0.0</y>
+			<z>1</z>
+		</axis>
+	</animation>
+	
+	<!-- Tail Landing Gear - scissor swing -->
+	<animation> 
+		<type>rotate</type>
+		<object-name>topscissor</object-name>
+		<property>gear/gear[2]/compression-norm</property>
+		<interpolation>
+			<entry><ind> 0.0 </ind><dep>  0 </dep></entry>
+			<entry><ind> 1.0 </ind><dep> 50 </dep></entry>
+		</interpolation>
+		<axis>
+			<x1-m>  2.215 </x1-m>
+			<y1-m> -0.052 </y1-m>
+			<z1-m> -1.920 </z1-m>
+			<x2-m>  2.215 </x2-m>
+			<y2-m>  0.052 </y2-m>
+			<z2-m> -1.920 </z2-m>
+		</axis>
+	</animation>
+	
+	<animation> 
+		<type>rotate</type>
+		<object-name>tgear_swing</object-name>
+		<property>gear/gear[2]/compression-norm</property>
+		<interpolation>
+			<entry><ind> 0.0 </ind><dep>  0 </dep></entry>
+			<entry><ind> 1.0 </ind><dep> -24 </dep></entry>
+		</interpolation>
+		<axis>
+			<x1-m>  2.393 </x1-m>
+			<y1-m> -0.009 </y1-m>
+			<z1-m> -2.046</z1-m>
+			<x2-m>  2.393 </x2-m>
+			<y2-m>  0.009 </y2-m>
+			<z2-m> -2.046 </z2-m>
+		</axis>
+	</animation>
+
+	<!-- Gear Left complete -->
+	<animation>
+		<name>lgear_assy</name>
+			<object-name>lstrut</object-name>
+			<object-name>lpivot1</object-name>
+			<object-name>lpivot2</object-name>
+			
+			<object-name>lcompress</object-name>
+			<object-name>ltscissor</object-name>
+			<object-name>lbscissor</object-name>
+			<object-name>lwheel</object-name>
+	</animation>
+	
+	<animation>
+		<name>lgear_damper</name>
+			<object-name>lcompress</object-name>
+			<object-name>lbscissor</object-name>
+			<object-name>lwheel</object-name>
+	</animation>
+	
+	<!-- Gear Right complete -->
+	<animation>
+		<name>rgear_assy</name>
+		<object-name>rstrut</object-name>
+		<object-name>rpivot1</object-name>
+		<object-name>rpivot2</object-name>
+		
+		<object-name>rcompress</object-name>
+		<object-name>rtscissor</object-name>
+		<object-name>rbscissor</object-name>
+		<object-name>rwheel</object-name>
+	</animation>
+	
+	<animation>
+		<name>rgear_damper</name>
+		<object-name>rcompress</object-name>
+		<object-name>rbscissor</object-name>
+		<object-name>rwheel</object-name>
+	</animation>
+	
+	
+	
+	<!-- Left Landing Gear - compression -->
+	<animation>
+		<type>translate</type>
+		<object-name>lgear_damper</object-name>
+		<property>gear/gear[0]/compression-norm</property>
+		<factor>0.4</factor>
+		<axis>
+			<x>0.0</x>
+			<y>0.0</y>
+			<z>1</z>
+		</axis>
+	</animation>
+	
+	<!-- Left Landing Gear - scissors -->
+	<animation> 
+		<type>rotate</type>
+		<object-name>ltscissor</object-name>
+		<property>gear/gear[0]/compression-norm</property>
+		<interpolation>
+			<entry><ind> 0.0 </ind><dep>  0 </dep></entry>
+			<entry><ind> 1.0 </ind><dep>  60 </dep></entry>
+		</interpolation>
+		<axis>
+			<x1-m> -5.067 </x1-m>
+			<y1-m> -2.099 </y1-m>
+			<z1-m> -1.766 </z1-m>
+			<x2-m> -5.067 </x2-m>
+			<y2-m> -2.058 </y2-m>
+			<z2-m> -1.766 </z2-m>
+		</axis>
+	</animation>
+	
+	<animation> 
+		<type>rotate</type>
+		<object-name>lbscissor</object-name>
+		<property>gear/gear[0]/compression-norm</property>
+		<interpolation>
+			<entry><ind> 0.0 </ind><dep>  0 </dep></entry>
+			<entry><ind> 1.0 </ind><dep> -60 </dep></entry>
+		</interpolation>
+		<axis>
+			<x1-m> -5.069 </x1-m>
+			<y1-m> -2.099 </y1-m>
+			<z1-m> -2.181 </z1-m>
+			<x2-m> -5.069 </x2-m>
+			<y2-m> -2.058 </y2-m>
+			<z2-m> -2.181 </z2-m>
+		</axis>
+	</animation>
+	
+	<!-- Right Landing Gear - compression -->
+	<animation>
+		<type>translate</type>
+		<object-name>rgear_damper</object-name>
+		<property>gear/gear[1]/compression-norm</property>
+		<factor>0.4</factor>
+		<axis>
+			<x>0.0</x>
+			<y>0.0</y>
+			<z>1</z>
+		</axis>
+	</animation>
+	
+	<!-- Right Landing Gear - scissors -->
+	<animation> 
+		<type>rotate</type>
+		<object-name>rtscissor</object-name>
+		<property>gear/gear[1]/compression-norm</property>
+		<interpolation>
+			<entry><ind> 0.0 </ind><dep>  0 </dep></entry>
+			<entry><ind> 1.0 </ind><dep> -60 </dep></entry>
+		</interpolation>
+		<axis>
+			<x1-m> -5.067 </x1-m>
+			<y1-m>  2.099 </y1-m>
+			<z1-m> -1.766 </z1-m>
+			<x2-m> -5.067 </x2-m>
+			<y2-m>  2.058 </y2-m>
+			<z2-m> -1.766 </z2-m>
+		</axis>
+	</animation>
+	
+	<animation> 
+		<type>rotate</type>
+		<object-name>rbscissor</object-name>
+		<property>gear/gear[1]/compression-norm</property>
+		<interpolation>
+			<entry><ind> 0.0 </ind><dep>  0 </dep></entry>
+			<entry><ind> 1.0 </ind><dep>  60 </dep></entry>
+		</interpolation>
+		<axis>
+			<x1-m> -5.069 </x1-m>
+			<y1-m>  2.099 </y1-m>
+			<z1-m> -2.181 </z1-m>
+			<x2-m> -5.069 </x2-m>
+			<y2-m>  2.058 </y2-m>
+			<z2-m> -2.181 </z2-m>
+		</axis>
+	</animation>
+
+	<!-- Wheelspin -->
+	<animation>
+		<type>spin</type>
+		<object-name>lwheel</object-name>
+		<property>gear/gear[0]/rollspeed-ms</property>
+		<factor> 30 </factor>
+		<center>
+			<x-m> -4.999 </x-m>
+			<y-m> -2.078 </y-m>
+			<z-m> -2.181 </z-m>
+		</center>
+		<axis>
+			<x>  0 </x>
+			<y> -1 </y>
+			<z>  0 </z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>spin</type>
+		<object-name>rwheel</object-name>
+		<property>gear/gear[1]/rollspeed-ms</property>
+		<factor> 30 </factor>
+		<center>
+			<x-m> -4.999 </x-m>
+			<y-m>  2.078 </y-m>
+			<z-m> -2.181 </z-m>
+		</center>
+		<axis>
+			<x>  0 </x>
+			<y> -1 </y>
+			<z>  0 </z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>spin</type>
+		<object-name>twheel</object-name>
+		<property>gear/gear[2]/rollspeed-ms</property>
+		<factor> 30 </factor>
+		<center>
+			<x-m>  2.697 </x-m>
+			<y-m>  0.014 </y-m>
+			<z-m> -2.257 </z-m>
+		</center>
+		<axis>
+			<x>  0 </x>
+			<y> -1 </y>
+			<z>  0 </z>
+		</axis>
+	</animation>
+
+ <!-- Effets lumineux -->
+  
+  <model>
+    <path>Aircraft/Westland_SeaKing/Models/Lights/LightPack2.xml</path>
+    <offsets>
+      <x-m>0</x-m>
+      <y-m>0</y-m>
+      <z-m>0</z-m>
+    </offsets>
+  </model>
+  
+  
+  <!-- winchman code -->
+  
+     <model>
+            <name>Rescue-Op</name>
+            <path>Aircraft/Westland_SeaKing/Models/Rescue/Rescue-Op.xml</path>
+            <offsets>
+                    <x-m>-1.7</x-m>
+                    <y-m>1.5</y-m>
+                    <z-m>-5.2</z-m>
+            </offsets>
+        </model>
+		
+		
+		 <model>
+            <name>Rescue-man</name>
+            <path>Aircraft/Westland_SeaKing/Models/Rescue/Rescue-Man.xml</path>
+            <offsets>
+                    <x-m>-1.4</x-m>
+                    <y-m>0.45</y-m>
+                    <z-m>-0</z-m>
+            </offsets>
+        </model>
+		
+<!--	<effect>
+   <inherits-from>Aircraft/Westland_SeaKing/Models/Effects/seaking-interior</inherits-from>
+<object-name>wavefront.001</object-name>
+<object-name>rdoor.002</object-name>
+<object-name>rdoor.001</object-name>
+<object-name>rdoor</object-name>
+<object-name>object.003</object-name>
+<object-name>object</object-name>
+<object-name>ldoor</object-name>
+<object-name>fuse_03</object-name>
+<object-name>cockpitfloor</object-name>
+ </effect>	-->
+
+</PropertyList>
+

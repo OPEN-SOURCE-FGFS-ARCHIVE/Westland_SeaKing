@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+  <sim>
+    <model>
+      <livery>
+        <name type="string">Royal Navy 771NAS</name>
+        <texture>hc4Liveries/RN771NAS.png</texture>
+
+      </livery>
+	    <bk117>
+	   <hdr>true</hdr>
+		<als>false</als>
+		</bk117>
+    </model>
+	<rendering>
+    <refl_correction type="string">-0.35</refl_correction>
+    </rendering>
+  </sim>
+</PropertyList>
